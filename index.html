@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body class="relative bg-sky-950 font-new min-h-dvh">
+    <!-- NAV -->
+    <nav class="flex justify-between items-center px-5 py-4 text-neutral-50 md:px-10">
+        <span class="text-xl font-medium md:text-3xl after:content-[''] after:block after:w-16 after:h-1 after:bg-sky-500 after:mt-1 after:mx-auto after:rounded-sm">Chigozie</span>
+
+        <ul class="hidden md:flex gap-6 md:text-xl">
+            <li><a href="#" class="border-b-2 border-transparent hover:border-sky-500 hover:text-sky-500 duration-300 transition-all ">Home</a></li>
+            <li><a href="#" class="border-b-2 border-transparent hover:border-sky-500 hover:text-sky-500 duration-300 transition-all">About</a></li>
+            <li><a href="#" class="border-b-2 border-transparent hover:border-sky-500 hover:text-sky-500 duration-300 transition-all">Skills</a></li>
+            <li><a href="#" class="border-b-2 border-transparent hover:border-sky-500 hover:text-sky-500 duration-300 transition-all">Contact</a></li>
+        </ul>
+
+        <button class="hover:text-sky-600 duration-300 transition-all md:hidden">
+            <i class="fa-solid fa-bars text-lg"></i>
+        </button>
+    </nav>
+
+    <section class="px-5 mt-4 flex flex-col gap-10 md:flex-row-reverse md:justify-between md:items-center md:mt-20 md:px-10 md:h-auto">
+        <div class="">
+            <img src="src/images/profile.jpg" alt="Profile image" class="rounded-2xl h-96 object-cover w-full md:h-[35rem] md:w-3xl md:object-cover md:mx-auto sm:w-full sm:h-96 sm:object-cover">
+        </div>
+
+        <div class=" text-neutral-50 flex flex-col gap-8">
+            <div class="flex flex-col">
+                <span class="text-3xl font-bold md:text-5xl">Hello, I'm</span>
+                <span class="text-5xl font-bold bg-linear-to-r from-sky-400 to-indigo-400 pb-1 bg-clip-text text-transparent md:text-8xl">Chigozie</span>
+            </div>
+
+            <div class="text-xl md:max-w-4/5 md:text-2xl">
+                I'm a passionate and hardworking learner who loves technology, design and building cool things. I'm always eager to improve and explore new opportunities.
+            </div>
+
+            <a href="mailto:hello@example.com" class="text-xl mb-6 bg-sky-500 text-white px-4 py-2 rounded-full text-center hover:bg-sky-600 transition-colors duration-300 md:w-52 md:text-2xl">Contact Me</a>
+        </div>
+    </section>
+
+</body>
+</html>
